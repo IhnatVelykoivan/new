@@ -75,7 +75,7 @@ bash
 $ node --loader ts-node/esm polly.ts
 
 Customizing Speech Parameters
-Each API provides various parameters for customizing the speech output, including voice, speed, and language. You can modify these parameters directly in the script files (elevenlabs.ts, ollama.ts, polly.js) to match your requirements.
+Each API provides various parameters for customizing the speech output, including voice, speed, and language. You can modify these parameters directly in the script files (elevenlabs.ts, ollama.ts, polly.ts) to match your requirements.
 
 ## Contributing
 We welcome contributions to this project! If you want to improve the project, follow the steps below to contribute:

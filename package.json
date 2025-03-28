@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "tsx watch ollama.ts",
-    "polly": "node --loader ts-node/esm polly.ts",
-    "elevenlab": "node --loader ts-node/esm elevenlabs.ts",
-    "ollama": "tsx ollama.ts",
+    "start": "node --loader ts-node/esm server.ts",
+    "dev": "tsx watch src/ollama.ts",
+    "polly": "node --loader ts-node/esm src/polly.ts",
+    "elevenlab": "node --loader ts-node/esm src/elevenlabs.ts",
+    "ollama": "tsx src/ollama.ts",
     "build": "tsc",
     "serve": "node dist/ollama.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node tests/example.test.ts"
   },
   "keywords": [],
   "author": "",
@@ -26,8 +27,12 @@
     "ollama": "^0.5.14"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.17",
     "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.14",
     "@types/node": "^20.17.28",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.0",
     "ts-node": "^10.9.2",
     "tsx": "^4.7.1",
     "typescript": "^5.8.2"

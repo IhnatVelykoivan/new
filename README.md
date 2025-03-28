@@ -3,44 +3,43 @@ This project provides an integration platform for various speech synthesis APIs 
 
 ### Features
 
-&#160;Multi-API Support: Integrate with Eleven Labs, Ollama, and AWS Polly (optional).
+- Multi-API Support: Integrate with Eleven Labs, Ollama, and AWS Polly (optional).
 
-&#160;Modular Design: Each API integration is isolated in its own module, making it easier to extend and maintain.
+- Modular Design: Each API integration is isolated in its own module, making it easier to extend and maintain.
 
-&#160;Customizable Speech Parameters: Adjust voice, speed, language, and tone for each API.
+- Customizable Speech Parameters: Adjust voice, speed, language, and tone for each API.
 
-&#160;TypeScript & JavaScript: Written in TypeScript for type safety with JavaScript fallback for flexibility.
+- TypeScript & JavaScript: Written in TypeScript for type safety with JavaScript fallback for flexibility.
 
 ### Technologies
-&#160;TypeScript and JavaScript for the implementation.
+- TypeScript and JavaScript for the implementation.
 
-&#160; Node.js for backend execution.
+- Node.js for backend execution.
 
-&#160; Speech synthesis services: Eleven Labs, Ollama, and AWS Polly.
+- Speech synthesis services: Eleven Labs, Ollama, and AWS Polly.
 
 ### Installation
 Prerequisites
 Before you begin, ensure you have the following installed:
 
-&#160;Node.js (v16 or higher)
+- Node.js (v16 or higher)
 
-&#160;npm (Node package manager)
+- npm (Node package manager)
 
 Install Dependencies
 1.Clone the repository:
 
-bash
-git clone https://github.com/IhnatVelykoivan/new.git
+$ git clone `https://github.com/IhnatVelykoivan/new.git`
 
 2.Navigate into the project directory:
 
 bash
-cd new
+$ cd new
 
 3.Install the required dependencies:
 
 bash
-npm install
+$ npm install
 
 4.Configure your API keys by creating a .env file in the root directory and adding the following keys:
 
@@ -48,30 +47,30 @@ ELEVEN_LABS_API_KEY=your-eleven-labs-api-key
 OLLAMA_API_KEY=your-ollama-api-key
 POLLY_API_KEY=your-aws-polly-api-key
 
-&#160;Example .env File
+- Example .env File
 
 ### Usage
 Once the installation is complete, you can run the scripts to interact with each speech synthesis API.
 
-&#160;Eleven Labs
+- Eleven Labs
 
 To test Eleven Labs integration, run:
 
 bash
-node --loader ts-node/esm elevenlabs.ts
+$ node --loader ts-node/esm elevenlabs.ts
 
-&#160;Ollama
+- Ollama
 
 To test Ollama integration, run:
 
 bash
-tsx ollama.ts
+$ tsx ollama.ts
 
-&#160;AWS Polly
+- AWS Polly
 If you have configured AWS Polly, you can run:
 
 bash
-node --loader ts-node/esm polly.ts
+$ node --loader ts-node/esm polly.ts
 
 Customizing Speech Parameters
 Each API provides various parameters for customizing the speech output, including voice, speed, and language. You can modify these parameters directly in the script files (elevenlabs.ts, ollama.ts, polly.js) to match your requirements.
@@ -96,5 +95,5 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 
 ### Acknowledgments
 
-&#160;Eleven Labs, Ollama, and AWS Polly for providing APIs for text-to-speech.
-&#160;TypeScript for enabling type safety and developer-friendly features.
+- Eleven Labs, Ollama, and AWS Polly for providing APIs for text-to-speech.
+- TypeScript for enabling type safety and developer-friendly features.

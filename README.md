@@ -26,22 +26,24 @@ Before you begin, ensure you have the following installed:
 
 - npm (Node package manager)
 
-Install Dependencies
-1.Clone the repository:
+# Install Dependencies
 
+# 1.Clone the repository:
+
+bash
 $ git clone `https://github.com/IhnatVelykoivan/new.git`
 
-2.Navigate into the project directory:
+# 2.Navigate into the project directory:
 
 bash
 $ cd new
 
-3.Install the required dependencies:
+# 3.Install the required dependencies:
 
 bash
 $ npm install
 
-4.Configure your API keys by creating a .env file in the root directory and adding the following keys:
+# 4.Configure your API keys by creating a .env file in the root directory and adding the following keys:
 
 ELEVEN_LABS_API_KEY=your-eleven-labs-api-key
 OLLAMA_API_KEY=your-ollama-api-key
@@ -52,21 +54,21 @@ POLLY_API_KEY=your-aws-polly-api-key
 ### Usage
 Once the installation is complete, you can run the scripts to interact with each speech synthesis API.
 
-- Eleven Labs
+# - Eleven Labs
 
 To test Eleven Labs integration, run:
 
 bash
 $ node --loader ts-node/esm elevenlabs.ts
 
-- Ollama
+# - Ollama
 
 To test Ollama integration, run:
 
 bash
 $ tsx ollama.ts
 
-- AWS Polly
+# - AWS Polly
 If you have configured AWS Polly, you can run:
 
 bash

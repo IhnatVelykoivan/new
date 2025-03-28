@@ -1,0 +1,9 @@
+.env
+node_modules/
+*.log
+polly_output.mp3
+*.tsbuildinfo
+dist/
+.idea/
+.DS_Store
+Thumbs.db

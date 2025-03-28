@@ -80,10 +80,15 @@ Each API provides various parameters for customizing the speech output, includin
 We welcome contributions to this project! If you want to improve the project, follow the steps below to contribute:
 
 1.Fork the repository to your own GitHub account.
+
 2.Clone your fork to your local machine.
+
 3.Create a new branch (git checkout -b feature-name).
+
 4.Make your changes and commit them (git commit -am 'Add new feature').
+
 5.Push to your branch (git push origin feature-name).
+
 6.Create a pull request from your fork to the main repository.
 
 ### License

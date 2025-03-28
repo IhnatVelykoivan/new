@@ -33,17 +33,12 @@ Before you begin, ensure you have the following installed:
 bash
 $ git clone `https://github.com/IhnatVelykoivan/new.git`
 
-### 2.Navigate into the project directory:
-
-bash
-$ cd new
-
-### 3.Install the required dependencies:
+### 2.Install the required dependencies:
 
 bash
 $ npm install
 
-### 4.Configure your API keys by creating a .env file in the root directory and adding the following keys:
+### 3.Configure your API keys by creating a .env file in the root directory and adding the following keys:
 
 ELEVEN_LABS_API_KEY=your-eleven-labs-api-key
 OLLAMA_API_KEY=your-ollama-api-key

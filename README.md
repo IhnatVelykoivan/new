@@ -40,10 +40,10 @@ $ npm install
 
 ### 3.Configure your API keys by creating a .env file in the root directory and adding the following keys:
 
-ELEVEN_LABS_API_KEY=your-eleven-labs-api-key
-OLLAMA_API_KEY=your-ollama-api-key
-POLLY_API_KEY=your-aws-polly-api-key
-AWS_REGION=your-region
+###### ELEVEN_LABS_API_KEY=your-eleven-labs-api-key
+###### OLLAMA_API_KEY=your-ollama-api-key
+###### POLLY_API_KEY=your-aws-polly-api-key
+###### AWS_REGION=your-region
 
 - Example .env File
 

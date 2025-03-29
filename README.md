@@ -66,11 +66,8 @@ To test Ollama integration, run:
 bash
 $ tsx ollama.ts
 
-#### Example request:
-
-{
-  "message": "Hello, how are you?"
-}
+#### Example request(Postman or cURL):
+curl -X POST http://localhost:3000/chat -H "Content-Type: application/json" -d '{"message": "Hello, how are you?"}'
 
 ### - AWS Polly
 If you have configured AWS Polly, you can run:

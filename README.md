@@ -22,7 +22,7 @@ This project provides an integration platform for various speech synthesis APIs 
 Prerequisites
 Before you begin, ensure you have the following installed:
 
-- Node.js (v20)
+- Node.js (v18.20.8)
 
 - npm (Node package manager)
 

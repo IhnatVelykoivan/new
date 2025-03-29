@@ -12,7 +12,7 @@ This project provides an integration platform for various speech synthesis APIs 
 - TypeScript & JavaScript: Written in TypeScript for type safety with JavaScript fallback for flexibility.
 
 ## Technologies
-- TypeScript and JavaScript for the implementation.
+- TypeScript for the implementation.
 
 - Node.js for backend execution.
 

@@ -22,7 +22,7 @@ This project provides an integration platform for various speech synthesis APIs 
 Prerequisites
 Before you begin, ensure you have the following installed:
 
-- Node.js (v16 or higher)
+- Node.js (v20)
 
 - npm (Node package manager)
 
@@ -30,12 +30,12 @@ Before you begin, ensure you have the following installed:
 
 ### 1.Clone the repository:
 
-bash
+###### bash:
 $ git clone `https://github.com/IhnatVelykoivan/new.git`
 
 ### 2.Install the required dependencies:
 
-bash
+###### bash:
 $ npm install
 
 ### 3.Configure your API keys by creating a .env file in the root directory and adding the following keys:
@@ -56,14 +56,14 @@ Once the installation is complete, you can run the scripts to interact with each
 
 To test Eleven Labs integration, run:
 
-bash
+###### bash:
 $ node --loader ts-node/esm elevenlabs.ts
 
 ### - Ollama
 
 To test Ollama integration, run:
 
-bash
+###### bash:
 $ tsx ollama.ts
 
 #### Example request(Postman or cURL):
@@ -72,7 +72,7 @@ curl -X POST http://localhost:3000/chat -H "Content-Type: application/json" -d '
 ### - AWS Polly
 If you have configured AWS Polly, you can run:
 
-bash
+###### bash:
 $ node --loader ts-node/esm polly.ts
 
 Customizing Speech Parameters

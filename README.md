@@ -43,6 +43,7 @@ $ npm install
 ELEVEN_LABS_API_KEY=your-eleven-labs-api-key
 OLLAMA_API_KEY=your-ollama-api-key
 POLLY_API_KEY=your-aws-polly-api-key
+AWS_REGION=your-region
 
 - Example .env File
 

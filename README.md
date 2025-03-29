@@ -1,5 +1,5 @@
 # Speech Synthesis APIs Integration
-This project provides an integration platform for various speech synthesis APIs including Eleven Labs, Ollama, and AWS Polly. It is built with TypeScript and JavaScript and aims to provide a flexible and easy-to-use solution for developers seeking to incorporate text-to-speech functionality into their applications.
+This project provides an integration platform for various speech synthesis APIs including Eleven Labs, Ollama, and AWS Polly. It is built with TypeScript and aims to provide a flexible and easy-to-use solution for developers seeking to incorporate text-to-speech functionality into their applications.
 
 ## Features
 

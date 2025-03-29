@@ -50,6 +50,8 @@ AWS_REGION=your-region
 ### Usage
 Once the installation is complete, you can run the scripts to interact with each speech synthesis API.
 
+
+
 ### - Eleven Labs
 
 To test Eleven Labs integration, run:
@@ -63,6 +65,12 @@ To test Ollama integration, run:
 
 bash
 $ tsx ollama.ts
+
+#### Example request:
+
+{
+  "message": "Hello, how are you?"
+}
 
 ### - AWS Polly
 If you have configured AWS Polly, you can run:
